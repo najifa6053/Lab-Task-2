@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    padding: 40px;
+}
+
+form{
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 10px wheat;
+    border-radius: 8px;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 50%;
+    margin-top: 5px;
+    padding: 3px;
+}
+
+.gender, .courses{
+    margin-top: 15px;
+}
+
+
+button{
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: rgb(38, 112, 177);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(190, 215, 236);
+}
+
+#errorMsg {
+    color: red;
+    margin-top: 15px;
+  }
