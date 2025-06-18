@@ -6,7 +6,7 @@ const courseInputs = document.querySelectorAll('input[name="course"]');
 const errorMsg = document.getElementById("errorMsg");
 
 // Regular expression for email
-const emailRegex = /^[a-zA-Z0-9._%]+@[a-zA-Z0-9.-]+[a-zA-Z]{2,}$/;
+const emailRegex = /^[a-zA-Z0-9._-%]+@[a-zA-Z0-9.-]+[a-zA-Z]{2,}$/;
 
 // Apply live validation styles
 emailInput.addEventListener("input", () => {
