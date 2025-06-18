@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+
+<body>
+    <form>
+        <h2>Form Validation</h2>
+        <div>
+            <label>First Name:
+                <input type="text" id="firstName" required>
+            </label>
+        </div><br>
+        <div>
+            <label>Last Name:
+                <input type="text" id="lasttName" required>
+            </label><br>
+        </div><br>
+        <div>
+            <label>Email:
+                <input type="email" id="email" required>
+            </label><br>
+        </div><br>
+        <div>
+            <label>Password:
+                <input type="password" id="password" required>
+            </label><br>
+        </div><br>
+        <div class="gender">
+            Gender:
+            <label><input type="radio" name="gender" value="Male"> Male</label>
+            <label><input type="radio" name="gender" value="Female"> Female</label>
+          </div><br>
+          <div class="courses">
+            Registered Courses:<br>
+            <label><input type="checkbox" name="courses" value="HTML">HTML</label>
+            <label><input type="checkbox" name="courses" value="CSS">CSS</label>
+            <label><input type="checkbox" name="courses" value="JavaScript">JavaScript</label>
+          </div><br>
+          <button type="submit">Submit</button>
+          <p id="errorMsg"></p>
+
+    </form>
+</body>
+
+</html>
